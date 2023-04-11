@@ -28,6 +28,45 @@ body > .portfolio {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 25px;
+  border-bottom: 1.5px solid #f0f0f6;
+  margin-bottom: 25px;
+}
+
+.portfolio > .left-sidebar > .developer-info-1 > .information {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.portfolio > .left-sidebar > .developer-info-1 > .information > .key {
+  background-color: #ffb400;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #2b2b2b;
+  text-transform: capitalize;
+  padding: 0 5px;
+
+  margin: 0;
+}
+
+.portfolio > .left-sidebar > .developer-info-1 > .information > .value {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: right;
+  text-transform: capitalize;
+  color: #2b2b2b;
+  margin: 0;
+}
+
+.portfolio > .left-sidebar > .developer-info-1 > .information > .value.green {
+  color: #7eb942;
 }
 
 .developer-info > .profile-image {
