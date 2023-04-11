@@ -69,6 +69,31 @@ body > .portfolio {
   color: #7eb942;
 }
 
+.portfolio > .left-sidebar > .languages > .language {
+  display: flex;
+  justify-content: space-between;
+}
+
+.portfolio > .left-sidebar > .languages > .skill-bar {
+  border: 1px solid #ffb400;
+  padding: 1px;
+  border-radius: 30px;
+}
+
+.portfolio > .left-sidebar > .languages > .skill-bar > .skill {
+  height: 2px;
+  background: #ffb400;
+}
+.skill-bar > .skill.hundred-per {
+  width: 100%;
+}
+.skill-bar > .skill.sixty-per {
+  width: 60%;
+}
+.skill-bar > .skill.eighty-per {
+  width: 80%;
+}
+
 .developer-info > .profile-image {
   position: relative;
   margin-bottom: 31px;
